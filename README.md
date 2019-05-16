@@ -1,3 +1,2 @@
 # test-repo
-fdgafgsdfg
-Cool
+A cool repo
