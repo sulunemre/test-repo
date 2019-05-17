@@ -1,2 +1,2 @@
 # test-repo
-A cool repo
+A cool repo.
