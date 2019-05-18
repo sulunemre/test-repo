@@ -14,7 +14,7 @@ public class Main {
     public static void readFile(String inputPath) throws IOException {
         try(BufferedReader br = new BufferedReader(new FileReader(inputPath))){
             int intVal;
-            while ((intVal = br.read()) >= 0){
+            while ((intVal = br.read()) > 0){
                 char charVal = (char)intVal;
                 System.out.print(charVal);
             }
