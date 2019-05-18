@@ -7,16 +7,12 @@ import java.io.IOException;
 public class Main {
 
     public static void main(String[] args) throws IOException {
-        //bufferedReader();
-        //Strings.stringJoiner();
-        //Strings.formatSpecifier();
-        //Collections.lambdaExpressions();
-        Collections.mapCollections();
+        readFile("file1.txt");
     }
 
 
-    public static void bufferedReader() throws IOException {
-        try(BufferedReader br = new BufferedReader(new FileReader("file1.txt"))){
+    public static void readFile(String inputPath) throws IOException {
+        try(BufferedReader br = new BufferedReader(new FileReader(inputPath))){
             int intVal;
             while ((intVal = br.read()) >= 0){
                 char charVal = (char)intVal;
