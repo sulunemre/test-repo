@@ -16,7 +16,7 @@ public class Main {
             int intVal;
             while ((intVal = br.read()) > 0){
                 char charVal = (char)intVal;
-                System.out.print(charVal);
+                System.out.println(charVal);
             }
         } catch(Exception e){
             e.printStackTrace();
